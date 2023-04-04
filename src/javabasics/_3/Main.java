@@ -37,7 +37,6 @@ public class Main {
     /**
      * 3: Complete exercise 2, but store the values in a variable.
      * And then print out the variable.
-     *
      * i.e.
      * char favouriteLetter = 'g';
      * System.out.print("My favourite letter=");
