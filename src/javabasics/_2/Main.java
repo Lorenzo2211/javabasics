@@ -22,7 +22,7 @@ public class Main {
      */
     public static void exercise2() {
         System.out.println("\nExercise 2: ");
-        System.out.println("Hello");
+        System.out.print("Hello");
         //Wrote code underneath this
         System.out.println("Lorenzo");
         //Wrote code above this
