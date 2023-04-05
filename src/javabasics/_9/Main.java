@@ -89,7 +89,7 @@ public class Main {
     private static void exercise4() {
         System.out.println("\nExercise 4:");
 
-        int employeeAge = 30;
+        int employeeAge = 40;
 
         //Write your if statement here
         if (employeeAge >= 65) {
