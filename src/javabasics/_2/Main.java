@@ -24,7 +24,7 @@ public class Main {
         System.out.println("\nExercise 2: ");
         System.out.print("Hello");
         //Wrote code underneath this
-        System.out.println("Lorenzo");
+        System.out.println(" Lorenzo!");
         //Wrote code above this
     }
 
