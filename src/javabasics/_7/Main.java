@@ -49,7 +49,7 @@ public class Main {
     private static void exercise3() {
         System.out.println("\nExercise 3:");
 
-        double textFrom2Primitives =  1.5 + 67 + 'b'; // <--- Edit this line
+        String textFrom2Primitives = "" + 1.5 + 67 + 'b' + true; // <--- Edit this line
         System.out.println(textFrom2Primitives);
     }
 
