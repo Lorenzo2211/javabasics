@@ -42,9 +42,9 @@ public class Main {
         System.out.println("\nExercise 2:");
         // Wrote code here
         double number = 10.5;
-        double timedNumber = number * 2;
-        System.out.println(timedNumber);
-        System.out.println(timedNumber / 2);
+        number = number * 2;
+        System.out.println(number);
+        System.out.println(number / 2);
 
     }
 
@@ -64,7 +64,7 @@ public class Main {
         System.out.println("\nExercise 3:");
         // Wrote your code here
         double celsius = 15;
-        var fahrenheit = celsius * 1.8 + 32;
+        double fahrenheit = (celsius * 1.8) + 32;
         System.out.println("The celsius temperature is " + celsius);
         System.out.println("The fahrenheit temperature is " + fahrenheit);
     }
@@ -106,7 +106,9 @@ public class Main {
         age -= 50;
         System.out.println(age);
         int secondAge = 50;
-        System.out.println(secondAge - 50);
+        secondAge--;
+        secondAge = secondAge - 49;
+        System.out.println(secondAge);
     }
 
     /**
