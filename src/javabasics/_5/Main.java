@@ -107,8 +107,8 @@ public class Main {
         System.out.println(age);
         int secondAge = 50;
         secondAge--;
-        secondAge = secondAge - 49;
-        System.out.println(secondAge);
+        secondAge = secondAge - 25;
+        System.out.println(secondAge - 24);
     }
 
     /**
