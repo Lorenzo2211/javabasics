@@ -106,8 +106,8 @@ public class Main {
         age -= 50;
         System.out.println(age);
         int secondAge = 50;
+        secondAge = secondAge / 2;
         secondAge--;
-        secondAge = secondAge - 25;
         System.out.println(secondAge - 24);
     }
 
