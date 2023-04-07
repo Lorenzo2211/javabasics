@@ -39,7 +39,7 @@ public class Main {
         double lunchCost = 5.0;
 
         // Your if statement here
-        if (lunchCost < remainingMoney) {
+        if (lunchCost <= remainingMoney) {
             System.out.println("Lunch time!");
         } else {
             System.out.println("You go hungry today");
