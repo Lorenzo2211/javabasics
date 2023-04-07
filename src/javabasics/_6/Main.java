@@ -64,17 +64,17 @@ public class Main {
 
         double ourValue = 4.5;
 
-        // Replace with your comment 1
+        // Taking ourValue to next whole number
         System.out.println(ourValue + " after using ceiling=" + Math.ceil(ourValue));
-        // Replace with your comment 2
+        // Taking ourValue to previous whole number
         System.out.println(ourValue + " after using floor=" + Math.floor(ourValue));
-        // Replace with your comment 3
+        // Taking ourValue to next whole number because is .5
         System.out.println(ourValue + " after using round=" + Math.round(ourValue));
-        // Replace with your comment 4
+        // Square ourValue number
         System.out.println(ourValue + " after using powerOf with the value of 2=" + Math.pow(ourValue, 2));
-        // Replace with your comment 5
+        // Cube our number
         System.out.println(ourValue + " after using powerOf with the value of 3=" + Math.pow(ourValue, 3));
-        // Replace with your comment 6
+        // Generating a random value between 0-1 to multiply to ourValue
         System.out.println(ourValue + " times random =" + Math.random() * ourValue);
     }
 }
