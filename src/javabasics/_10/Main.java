@@ -90,8 +90,10 @@ public class Main {
         double maxTestScore = 10;
         boolean isTestRetry = true;
         //Write your code here
+        
         ourTestScore = (ourTestScore * 100) / 10;
         maxTestScore = 100;
+
         if (isTestRetry){
         ourTestScore = Math.min(ourTestScore,70);
          }
