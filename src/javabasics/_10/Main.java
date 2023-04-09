@@ -61,7 +61,7 @@ public class Main {
         // Write your code here
 
         boolean verifyMoneyForEntry = eurosInPocket >= eurosForEntry;
-        boolean verifyShoes = shoeType == "fancy";
+        boolean verifyShoes = shoeType.equals("fancy");
         boolean verifyAge = age >= 18;
 
         if(verifyShoes && verifyAge && verifyMoneyForEntry){
@@ -92,7 +92,6 @@ public class Main {
         //Write your code here
         ourTestScore = (ourTestScore * 100) / 10;
         maxTestScore = 100;
-        System.out.println(ourTestScore);
         if (isTestRetry){
         ourTestScore = Math.min(ourTestScore,70);
          }
@@ -121,7 +120,7 @@ public class Main {
         private static void exercise4Bonus() {
             System.out.println("\nExercise 4 (Optional) - One way road:");
             boolean carIsDrivingFromLeftToRight = true;
-            boolean carIsDrivingFromRightToLeft = true;
+            boolean carIsDrivingFromRightToLeft = false;
 
             //Write your code here
             if (carIsDrivingFromLeftToRight ^ carIsDrivingFromRightToLeft){
