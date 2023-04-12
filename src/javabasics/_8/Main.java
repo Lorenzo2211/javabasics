@@ -77,8 +77,9 @@ public class Main {
      *      */
     private static void exercise4() {
         System.out.println("\nExercise 4:");
-        String startStr = "5";
+        String startStr = " 5";
         // Write your code here
+        startStr = startStr.trim();
         int convertingToNumber = Integer.valueOf(startStr) * 2;
         String convertingBackToString = String.valueOf(convertingToNumber);
         String concatenatngOurString = convertingBackToString + convertingBackToString;
