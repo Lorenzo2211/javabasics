@@ -32,10 +32,10 @@ public class Main {
 
         // Write your code here
 
-        if(isWarm || wearingShorts){
-            System.out.println("Comfortable clothes");
-        } else {
+        if(isWarm ^ wearingShorts){
             System.out.println("Uncomfortable clothes");
+        } else {
+            System.out.println("Comfortable clothes");
         }
     }
 
