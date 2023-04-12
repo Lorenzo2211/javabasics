@@ -82,7 +82,7 @@ public class Main {
         //Scoring a string
         String score= " ";
 
-        //Verify and sett minimum score
+        //Verify and set minimum score
         int minScore = 5;
         yourMealScore = Math.max(yourMealScore, minScore);
 
