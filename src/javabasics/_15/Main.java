@@ -82,15 +82,15 @@ public class Main {
      * A Example: fori
      *
      * Q1: A user inputs their actions into an ATM, they can withdraw, deposit, check balance or exit. What loop should we use?
-     * A1: do while
+     * A1: We should use a do while loop, because we always want to check at least 1 action performed by the user. And we don't know how many actions it will take.
      *
      * Q2: We have a list of 1000 users to send emails to
-     * A2: fori - for each
+     * A2: We should use a for each or for i loop, because we have a certain number of emails to send. So for each would be simpler than for i.
      *
      * Q3: We want to print out the first 80 customer names from our bank database
-     * A3: fori
+     * A3: We should use a for i loop, going from index 0 to 79 to process the 80 items. Should there be multiple elements, the for each will process them as well.
      *
      * Q4: We want to read a file 100 lines at a time, without loading the full file into our program
-     * A4: while
+     * A4: We should use a while loop, as we only want to read the file if there are lines, but we're not reading the whole file at once, we don't know how many lines there are, so the for loop isn't appropriate.
      */
 }
