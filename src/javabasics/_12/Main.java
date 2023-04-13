@@ -10,7 +10,7 @@ public class Main {
         System.out.println("\nExercise 2 - Meal score:");
         exercise2("sandwich", 2.5, 12.5);
         exercise2("soup", 10, 30);
-        exercise2("soup", 1, 5);
+        exercise2("meat", 1, 5);
     }
 
     /**
@@ -30,8 +30,7 @@ public class Main {
         double yourScore = 0;
 
         // Start your code here
-        //Scoring a string
-        String score= " ";
+        String score = "Java runs on over 2 billion devices";
 
         //Calculating our string length
         yourScore = score.length();
@@ -79,15 +78,14 @@ public class Main {
     public static double exercise2(String mealType, double weight, double expectedScore) {
         double yourMealScore = 0;
         // Start your code here
-        //Scoring a string
-        String score= " ";
+        mealType = "meat";
 
         //Verify and set minimum score
         int minScore = 5;
         yourMealScore = Math.max(yourMealScore, minScore);
 
         //Calculating our score for all mealType
-        switch (score){
+        switch (mealType){
             case "sandwich"      -> yourMealScore = 5 * weight;
             case "soup"          -> yourMealScore = 3 * weight;
         }
