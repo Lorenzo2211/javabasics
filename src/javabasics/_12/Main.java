@@ -30,22 +30,21 @@ public class Main {
         double yourScore = 0;
 
         // Start your code here
-        String score = "Java runs on over 2 billion devices";
 
         //Calculating our string length
-        yourScore = score.length();
+        yourScore = text.length();
 
         //Setting max score
         int maxStringLength = 20;
         yourScore = Math.min(maxStringLength, yourScore);
 
         //Verify if string contains "a" = -5 from our score
-        if (score.contains("a")){
+        if (text.contains("a")){
             yourScore = yourScore -5;
         }
 
         //Verify if string is all lowercase
-        if (score.toLowerCase().equals(score)){
+        if (text.toLowerCase().equals(text)){
             yourScore = yourScore + 10;
         }
 
@@ -78,7 +77,6 @@ public class Main {
     public static double exercise2(String mealType, double weight, double expectedScore) {
         double yourMealScore = 0;
         // Start your code here
-        mealType = "meat";
 
         //Verify and set minimum score
         int minScore = 5;
