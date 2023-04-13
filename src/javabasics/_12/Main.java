@@ -10,7 +10,7 @@ public class Main {
         System.out.println("\nExercise 2 - Meal score:");
         exercise2("sandwich", 2.5, 12.5);
         exercise2("soup", 10, 30);
-        exercise2("meat", 1, 5);
+        exercise2("soup", 1, 5);
     }
 
     /**
@@ -78,15 +78,19 @@ public class Main {
         double yourMealScore = 0;
         // Start your code here
 
-        //Verify and set minimum score
+        // Set minimum score
         int minScore = 5;
-        yourMealScore = Math.max(yourMealScore, minScore);
+
 
         //Calculating our score for all mealType
         switch (mealType){
             case "sandwich"      -> yourMealScore = 5 * weight;
             case "soup"          -> yourMealScore = 3 * weight;
         }
+
+        // Verify minimum score
+        yourMealScore = Math.max(yourMealScore, minScore);
+
         // End it here
 
         System.out.print("Expected score=" + expectedScore +", actual score=" + yourMealScore);
