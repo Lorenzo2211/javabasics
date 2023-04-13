@@ -40,7 +40,7 @@ public class Main {
 
         //Verify if string contains "a" = -5 from our score
         if (text.contains("a")){
-            yourScore = yourScore -5;
+            yourScore = yourScore - 5;
         }
 
         //Verify if string is all lowercase
