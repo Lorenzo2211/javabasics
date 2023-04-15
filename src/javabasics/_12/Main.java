@@ -38,7 +38,7 @@ public class Main {
         int maxStringLength = 20;
         yourScore = Math.min(maxStringLength, yourScore);
 
-        //Verify if string contains "a" = -5 from our score
+        //Verify if string contains "a" do -5 from our score
         if (text.contains("a")){
             yourScore = yourScore - 5;
         }
