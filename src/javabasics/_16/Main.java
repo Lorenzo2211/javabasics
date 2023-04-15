@@ -1,6 +1,5 @@
 package javabasics._16;
 
-import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.List;
 
@@ -28,13 +27,12 @@ public class Main {
     static String convertingOurTemperature () {
         double celsius = 30;
         double fahrenheit = ((celsius * 9) / 5) + 32;
-        String conversionDescription = celsius + " Celsius is " + fahrenheit + " fahrenheit";
-        return conversionDescription;
+        return celsius + " Celsius is " + fahrenheit + " fahrenheit";
     }
 
     /**
      * 2: Create a function that processes and prints out all the names in the ArrayList
-     *
+     * <p>
      *    Make sure to put all the formatting code in the function, formatting:
      *    1) to Upper case
      *    2) Remove spaces at the start and the end
