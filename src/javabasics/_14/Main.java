@@ -97,7 +97,7 @@ public class Main {
         System.out.println("Exercise 3:");
         List<String> names = Arrays.asList("Alan", "Alice", "Antonio", "Aziz");
 
-        for (int index = 0; index < 2; index = index + 1) {
+        for (int index = 0; index < 2; index++) {
             System.out.println(names.get(index));
         }
     }
