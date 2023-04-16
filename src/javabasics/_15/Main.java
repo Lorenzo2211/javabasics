@@ -33,7 +33,7 @@ public class Main {
             System.out.println("Investment value = €" + currentInvestmentValueEuros + " after " + yearsPast++ + " years" +
                     ", interest this year €" + interestGainedThisYearEuros);
 
-        } while (currentInvestmentValueEuros <= 15_000);
+        } while (currentInvestmentValueEuros <= 15_000 || yearsPast <= 5);
     }
 
     /**
@@ -66,8 +66,7 @@ public class Main {
             while (poundToEuroExchangeRate < 1.15 || remainingPoundsToSell != 0) {
                 daysToSell++;
                 poundToEuroExchangeRate = 1 + (Math.random() * 0.2);
-                while (poundToEuroExchangeRate >= 1.15 && remainingPoundsToSell != 0) {
-                    daysToSell++;
+                if (poundToEuroExchangeRate >= 1.15) {
                     remainingPoundsToSell = remainingPoundsToSell - maxPoundsToSellPerDay;
                 }
             }
