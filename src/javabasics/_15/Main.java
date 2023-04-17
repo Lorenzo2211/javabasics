@@ -32,7 +32,6 @@ public class Main {
 
             yearsPast++;
 
-
             System.out.println("Investment value = €" + currentInvestmentValueEuros + " after " + yearsPast + " years" +
                     ", interest this year €" + interestGainedThisYearEuros);
 
