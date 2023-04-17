@@ -30,7 +30,10 @@ public class Main {
 
             interestGainedThisYearEuros = currentInvestmentValueEuros - previousYearsInvestment;
 
-            System.out.println("Investment value = €" + currentInvestmentValueEuros + " after " + yearsPast++ + " years" +
+            yearsPast++;
+
+
+            System.out.println("Investment value = €" + currentInvestmentValueEuros + " after " + yearsPast + " years" +
                     ", interest this year €" + interestGainedThisYearEuros);
 
         } while (currentInvestmentValueEuros <= 15_000 || yearsPast <= 5);
