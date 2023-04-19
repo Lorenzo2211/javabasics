@@ -5,7 +5,6 @@ public class Student {
     Integer age = null;
     Student (String name, Integer age) {
         System.out.println("Constructing!");
-        System.out.println("Constructed!");
         this.name = name;
         this.age = age;
     }
@@ -22,6 +21,7 @@ public class Student {
     public void printName (){
         System.out.println("Name = " + name + "," +
                             " Age = " + age);
+        System.out.println("Constructed!");
     }
 
 }
