@@ -15,6 +15,7 @@ public class Main {
     private static void exercise1() {
         System.out.println("\nExercise 1:");
         int porridgeHeatInCentigrade = 60; // <--- Change this value
+        String ciao = "Ciao";
 
         if (porridgeHeatInCentigrade < 60) {
             System.out.println("Too cold!");
@@ -37,7 +38,6 @@ public class Main {
         System.out.println("\nExercise 2:");
         double remainingMoney = 15.0;
         double lunchCost = 5.0;
-
         // Your if statement here
         if (lunchCost <= remainingMoney) {
             System.out.println("Lunch time!");

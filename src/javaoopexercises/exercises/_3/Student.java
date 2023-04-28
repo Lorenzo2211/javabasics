@@ -7,13 +7,6 @@ public class Student {
     private String classroom = null;
     private String school = null;
 
-    void setInformation(String newName, String newSurname, Integer newAge, String newClassroom, String newSchool){
-        this.name = newName;
-        this.surname = newSurname;
-        this.age = newAge;
-        this.classroom = newClassroom;
-        this.school = newSchool;
-    }
     String getName(){
         return this.name;
     }
@@ -37,6 +30,14 @@ public class Student {
             System.out.println("Invalid School");
         }
         return this.school;
+    }
+
+    void setInformation(String newName, String newSurname, Integer newAge, String newClassroom, String newSchool){
+        this.name = newName;
+        this.surname = newSurname;
+        this.age = newAge;
+        this.classroom = newClassroom;
+        this.school = newSchool;
     }
 }
 
