@@ -3,13 +3,14 @@ package javaoopadvanced.advanced._6;
 import jdk.jfr.FlightRecorder;
 
 import javax.swing.*;
+import java.awt.image.DataBufferUShort;
 
 public class Exercises {
     public static void main(String[] args) {
-        //exercise1();
-        //exercise2();
-        //exercise3();
-        //exercise4();
+        exercise1();
+        exercise2();
+        exercise3();
+        exercise4();
         exercise5();
     }
 
@@ -146,16 +147,14 @@ public class Exercises {
     private static void exercise4() {
         System.out.println("\nExercise 4: ");
         // Your code here
-        boolean isWeekend;
+        Days isWeekend = Days.SATURDAY;
 
-        for (Days day : Days.values()){
-            System.out.println(day);
-            isWeekend = (day == Days.SATURDAY || day == Days.SUNDAY);
-            if(isWeekend){
-                System.out.println("Is weekend days");
-            } else {
+        System.out.println(isWeekend);
+
+        if(isWeekend == Days.SATURDAY || isWeekend == Days.SUNDAY){
+            System.out.println("Is weekend days");
+        } else {
             System.out.println("Is weekdays");
-            }
         }
     }
 
