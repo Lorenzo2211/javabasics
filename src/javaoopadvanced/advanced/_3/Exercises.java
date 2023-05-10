@@ -40,11 +40,10 @@ public class Exercises {
      */
     private static void exercise2() {
         // Your code here
-
+        System.out.println("Exercise 2: ");
         List<String> list = Arrays.asList("apple", "banana", "apple", "orange", "kiwi", "banana");
         Set<String> set = Set.of("apple", "banana");
         set = toSet(list);
-        toSet(set);
         System.out.println(set);
     }
 
