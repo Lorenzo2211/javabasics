@@ -44,8 +44,6 @@ public class Exercises {
         } catch (Exception noFile) {
             System.err.println("The file could not be found");
             noFile.printStackTrace();
-            throw new RuntimeException(noFile);
-
         }
     }
 
@@ -64,7 +62,6 @@ public class Exercises {
         } catch (NumberFormatException notInteger) {
             System.err.println("The input was not a valid integer");
             notInteger.printStackTrace();
-            throw new RuntimeException(notInteger);
         }
     }
 
@@ -88,11 +85,9 @@ public class Exercises {
         } catch (NumberFormatException notDouble){
             System.err.println("The input was not a valid double");
             notDouble.printStackTrace();
-            throw new RuntimeException(notDouble);
         } catch (ArithmeticException notDivisible){
             System.err.println("The input was not divisible by 0");
             notDivisible.printStackTrace();
-            throw new RuntimeException(notDivisible);
         }
     }
 }
