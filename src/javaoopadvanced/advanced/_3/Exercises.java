@@ -71,12 +71,10 @@ public class Exercises {
         // from the Map and then increment it by 1, if no previous value exists, use 0 as the previous value.
 
         // Your code here
-        int count = 0;
         for (String word: words) {
-            count++;
-            wordCount.put("word", count);
+            wordCount.put(word, wordCount.getOrDefault(word, 0)+1);
         }
-        System.out.println(wordCount.values());
+        System.out.println(wordCount);
     }
 
     /**
