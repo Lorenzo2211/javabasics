@@ -4,6 +4,7 @@ public class Dog extends Animal {
     private String breed;
     public Dog(double height, double weight, String breed) {
         super(height, weight);
+        this.breed = breed;
     }
     public String getBreed() {
         return breed;

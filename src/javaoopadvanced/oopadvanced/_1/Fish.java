@@ -4,6 +4,7 @@ public class Fish extends Animal{
     String species;
     public Fish(double height, double weight, String species) {
         super(height, weight);
+        this.species = species;
     }
     public String getSpecies() {
         return species;
