@@ -10,14 +10,15 @@ public class Exercises {
         exercise2();
         exercise3();
     }
+
     /**
      * 1:
-     *
-     *
+     * <p>
+     * <p>
      * In the main method, create a variable x as a random number between 0-100 using Math.random() * 100;
-     *
+     * <p>
      * Use a ternary operator to check if x is greater than or equal to 50. If it is, print "x is greater than or equal to 50". If it's not, print "x is less than 50".
-     *
+     * <p>
      * Experiment with different values of x and observe the output
      */
     private static void exercise1() {
@@ -32,35 +33,34 @@ public class Exercises {
 
     /**
      * 2:
-     *
-     *
-     *
+     * <p>
+     * <p>
+     * <p>
      * Create a record called "Person" with fields for name, age and address.
-     *
+     * <p>
      * Add a toString method to Person to print out the data in a different format
-     *
+     * <p>
      * Print the record to the console
      */
     private static void exercise2() {
         System.out.println("\nExercise 2: ");
         // Your code here
-        Person person = new Person ("Mario", 40, "Via Verdi 12");
-        System.out.println(person);
-        System.out.println("Name: " + person.name() + ", Age: " + person.age() + ", Address: " + person.address() + ".");
+        Person person = new Person("Mario", 40, "Via Verdi 12");
+        System.out.println(person.toString());
     }
 
     /**
      * 3:
-     *
-     *
+     * <p>
+     * <p>
      * In the main method, create a BigInteger variable with a large value.
-     *
+     * <p>
      * Create a BigDecimal variable with a large value
-     *
+     * <p>
      * Divide the BigInteger by 3 using the divide method and assign the result to a new BigInteger variable
-     *
+     * <p>
      * Divide the BigDecimal by Math.PI using the divide method and assign the result to a new BigDecimal variable
-     *
+     * <p>
      * Print the results
      */
     private static void exercise3() {
@@ -80,33 +80,5 @@ public class Exercises {
 
         String bigDecimalDividedString = bigDecimal.divide(new BigDecimal(Math.PI), RoundingMode.HALF_UP).toString();
         System.out.println(bigDecimalDividedString);
-
-
-
-
-        /*
-
-
-
-            // Creating BigInteger object
-            BigInteger b1;
-            b1 = new BigInteger("321456");
-
-            // create radix
-            int radix = 2;
-
-            // apply toString(radix) method
-            String b1String = b1.toString(radix);
-
-            // print String
-            System.out.println("Binary String of BigInteger "
-                    + b1 + " is equal to " + b1String);
-                    */
-
-        }
     }
-
-
-//    }
-
-//}
+}
